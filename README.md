@@ -1,6 +1,6 @@
-# Project Description
+# Class Distillation with Mahalanobis Contrast: An Efficient Training Paradigm for Pragmatic Language Understanding Tasks
 
-This project provides the code for ClaD model training and evaluation on misogyny data, split into two main files:
+This provides the code for ClaD model training and evaluation on misogyny data, split into two main files:
 
 ## File Structure
 - **`ClaD_misogyny.py`**  
