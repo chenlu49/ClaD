@@ -28,7 +28,7 @@ model_path = XLNET
 # Location for storing fine-tuned parameters
 SAVE_PATH = './saved_model_misogyny/simcse_sup_xlnet.pt'
 
-# 数据位置
+# Data
 TRAIN = './simcse-datasets/misogyny/train.txt'
 DEV = './simcse-datasets/misogyny/dev.txt'
 TEST = './simcse-datasets/misogyny/test.txt'
@@ -36,9 +36,6 @@ TEST = './simcse-datasets/misogyny/test.txt'
 #
 
 def load_data(train_or_not,path: str) -> List:
-    """
-    """
-    #TODO: 
     if train_or_not:  
         with jsonlines.open(path, 'r') as f:
             
